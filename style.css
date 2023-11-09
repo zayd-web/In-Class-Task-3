@@ -1,0 +1,85 @@
+/* Global styles */
+h1 {
+    color: darkblue;
+  }
+  
+  aside ul {
+    list-style: square;
+  }
+  
+  aside ul li a:hover {
+    color: red;
+  }
+  
+  /* Navigation styles */
+  nav.structural ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+    list-style: none; /* Remove bullet points */
+  }
+  
+  nav a {
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    border: 2px solid cornsilk;
+    color: cornsilk;
+    background-color: indigo;
+    text-decoration: none; /* Remove link underline */
+  }
+  
+  /* Form styles */
+  form {
+    border: 5px dashed #555;
+    border-color: indigo; /* Change the color */
+  }
+  
+  /* Attribute selectors for input types */
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  select,
+  option {
+    width: 50%;
+    display: block;
+    height: 2em;
+  }
+  
+  /* Attribute selectors for input types */
+  input[type="radio"],
+  input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+  }
+  
+  select,
+  option,
+  label,
+  legend,
+  select > option,
+  select,
+  nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  
+  textarea {
+    width: 50%;
+    display: block;
+  }
+  
+  fieldset {
+    border: none; /* Remove border */
+  }
+  
